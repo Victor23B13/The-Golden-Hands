@@ -1,163 +1,161 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
+
 
 html{
     height: 100%;
 }
 
+
 body{
     height: 100%;
-    background-color: red;
+    background-color: #F3F3F3;
 }
+
 
 #container{
     height: 100%;
     background-color: #F3F3F3;
 }
 
-#top{
-    height: 10%;
+
+header{
+    height: 15%;
+    width: 100%;
+    padding: 28px 8%;
     display: flex;
 }
 
-#top-left{
-    height: 100%;
-    width: 30%;
+
+#nav-bar{
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
-#top-center{
-    height: 100%;
-    width: 40%;
-    display: flex;
+
+#logo{
+    max-width: 100%;
+    max-width: 180px;
+    height: auto;
 }
 
-nav{
-    height: 100%;
-    width: 100%;
-}
 
-ul{
-    height: 100%;
-    width: 100%;
+#nav_list{
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    gap: 48px;
 }
 
-li{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-a{
+.nav-item a{
     text-decoration: none;
     color: #000;
     font-weight: 500;
     font-size: 20px;
 }
 
-#top-right{
-    height: 100%;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.nav-item.active a{
+    color: #000;
+    border-bottom: 3px solid #D0AD5A;
 }
 
-button{
-    height: 50%;
-    width: 30%;
-    border-radius: 30px;
+
+.btn_default{
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #D0AD5A;
     color: #F3F3F3;
+    border-radius: 12px;
+    padding: 15px 30px;
     font-weight: 600;
-    font-size: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 1rem;
 }
 
 
-#middle{
-    height: 90%;
-    width: 100%;
+main{
+    height: 85%;
+}
+
+
+#home{
     display: flex;
-}
-
-#middle-left{
     height: 100%;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-}
-
-#middle-left-top{
-    height: 40%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
 }
 
-#middle-left-top span{
-    color: #D0AD5A;
-}
 
-#middle-left-center{
-    height: 40%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#middle-left-center h2{
-    font-weight: 500;
-}
-
-#middle-left-bottom{
-    height: 20%;
-    width:  100%;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-}
-
-#whatsaApp{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30%;
-    width: 50%;
-    background-color: #D0AD5A;
-    color: #F3F3F3;
-    font-size: 19px;
-    font-weight: 500;
-    gap: 10px;
-    border-radius: 30px;
-}
-
-#middle-right{
+#cta{
     height: 100%;
     width: 40%;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
 }
 
-#form-geo{
+
+#cta .title{
+    font-size: 2.3rem;
+}
+
+
+#cta .title span{
+    color: #D0AD5A;
+}
+
+
+#cta .description{
+    font-size: 1.8rem;
+}
+
+
+#cta_button{
+    display: flex;
+}
+
+
+#cta_button a{
+    text-decoration: none;
+    color: #F3F3F3;
+    gap: 15px;
+    padding: 10px 140px;
+}
+
+#banner{
     height: 100%;
-    width: 95%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#shape{
+    height: 100%;
+    width: 70%;
     background-color: #D9D9D9;
-    border-radius: 60px 60px 0 0;
+    border-radius: 200px 200px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner_img{
+    width: 100%;
+    height: 100%;
 }
