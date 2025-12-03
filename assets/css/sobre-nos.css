@@ -1,0 +1,166 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #000;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    width: 110px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+
+.nav .active {
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    padding-bottom: 3px;
+}
+
+.login-btn {
+    background: #d6b36c;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
+.container {
+    display: flex;
+    height: calc(100% - 100px);
+    padding: 40px;
+    gap: 30px;
+}
+
+.sobre-nos {
+    flex: 1;
+    background: #d1b05c;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 80%; 
+}
+#ex{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+.sobre-nos h4 {
+    opacity: 0.7%;
+    font-size: 18px;
+}
+
+.sobre-nos h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 10px 0 25px;
+    
+}
+
+.sobre-nos p {
+    font-size: 25px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+
+.lado-direito {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%;
+}
+
+
+.perfis {
+    width: 100%;              
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto 30px auto; 
+}
+
+.perfil {
+    text-align: center;
+}
+
+.perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.perfil span {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background: #d0d0d0;
+    border-radius: 70%;
+}
+
+
+.historia {
+    background: #e3e3e3;
+    padding: 40px;
+    height: 70%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+
+.historia h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.historia p {
+    font-size: 25px;
+    line-height: 1.65;
+}
