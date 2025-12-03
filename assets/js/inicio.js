@@ -1,1 +1,3 @@
-window.location.href = "login.html";
+function Login() {
+    window.location.href = "login.html";
+}
