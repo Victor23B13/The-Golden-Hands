@@ -154,15 +154,6 @@ main{
     font-size: 13px;
 }
 
-
-.circulo {
-    width: 100px;
-    height: 100px;
-    background: #d0d0d0;
-    border-radius: 70%;
-}
-
-
 .historia {
     background: #e3e3e3;
     padding: 40px;
@@ -182,3 +173,5 @@ main{
     font-size: 25px;
     line-height: 1.65;
 }
+
+
