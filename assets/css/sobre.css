@@ -80,7 +80,6 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-        border-bottom: #e3e3e3 0.8px solid;
 }
 
 .perfil {
